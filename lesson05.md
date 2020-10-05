@@ -207,6 +207,9 @@ operations = {
 
 def operation(num1, num2, operations_dict, operation):
     return operations_dict[operation](num1, num2)
+    
+    
+print(operation(5, 7, operations, 'plus'))
 ```
 
 #### Функция Map
